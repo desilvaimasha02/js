@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+   
+</head>
+<body>
+    <p id="text">hacking done</p>
+    <button id="button1">change text</button>
+    <button id="button2">chage color</button>
+     <button id="button3">new color</button>
+       <button id="button4">hide text</button> 
+    <script type="text/javascript">
+        document.getElementById("button1").onclick = function(){
+            document.getElementById("text").style.fontSize = "60px";
+        }
+        document.getElementById("button2").onclick = function(){
+            document.getElementById("text").style.color = "red";
+        } 
+        
+        document.getElementById("button3").onclick = function(){
+            document.getElementById("Text").style.color = "red";
+    } 
+    document.getElementById("button4").onclick = function(){
+            document.getElementById("text").style.display = "none";
+    }
+        
+</script>
+</body>
+</html>
